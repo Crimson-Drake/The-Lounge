@@ -39,7 +39,15 @@ const userSchema = new mongoose.Schema({
     followers: {
         type: Array,
         default: []
+    },
+    isAdmin: {
+        type: Boolean,
+        default: false
     }
-});
+},
+{
+    timestamps: true
+}
+);
 
 module.exports = mongoose.model('User', userSchema);
