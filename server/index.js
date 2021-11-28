@@ -1,10 +1,11 @@
 const express = require('express');
-// const bcrypt = require('bcrypt');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const helmet = require('helmet');
 const morgan = require('morgan');
+const userRoute = require('./routes/users');
+const authRoute = require('./routes/auth');
 
 const app = express();
 
@@ -21,13 +22,8 @@ app.use(express.json());
 app.use(helmet());
 app.use(morgan("common"));
 
-app.get("/", (req, res) => {
-    res.send("Reached home page");
-});
-
-app.get("/users", (req, res) => {
-    res.send("Reached users page");
-});
+app.use("/api/users", userRoute);
+app.use("/api/auth", authRoute);
 
 app.listen(3001, () => {
   console.log("Backend server is running!");
