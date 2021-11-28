@@ -1,10 +1,10 @@
 const express = require('express');
-import bcrypt from 'bcrypt';
-import cors from 'cors';
-import mongoose from 'mongoose';
-import dotenv from 'dotenv';
-import helmet from 'helmet';
-import morgan from 'morgan';
+// const bcrypt = require('bcrypt');
+const cors = require('cors');
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+const helmet = require('helmet');
+const morgan = require('morgan');
 
 const app = express();
 
