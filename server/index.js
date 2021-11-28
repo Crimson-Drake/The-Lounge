@@ -21,6 +21,14 @@ app.use(express.json());
 app.use(helmet());
 app.use(morgan("common"));
 
+app.get("/", (req, res) => {
+    res.send("Reached home page");
+});
+
+app.get("/users", (req, res) => {
+    res.send("Reached users page");
+});
+
 app.listen(3001, () => {
   console.log("Backend server is running!");
 });
