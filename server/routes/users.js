@@ -32,7 +32,7 @@ router.put("/:id", async (req, res) => {
 });
 
 // delete user
-router.delete(':/id', async function(req, res) {
+router.delete('/:id', async (req, res) => {
     if (req.body.userId === req.params.id || req.body.isAdmin) {
         try {
             await User.findByIdAndDelete(req.params.id);
