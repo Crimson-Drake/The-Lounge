@@ -46,7 +46,7 @@ router.delete("/:id", async (req, res) => {
 });
 
 // Like or dislike a post
-router.put("/:id", async (req, res) => {
+router.put("/:id/like", async (req, res) => {
     try {
         const post = await Post.findById(req.params.id);
 
@@ -81,7 +81,8 @@ router.get("/timeline/all", async (req, res) => {
             currentUser.following.map(friendId => {
                 return Post.find({ userId: friendId });
             })
-        )
+        );
+        res.json(userPosts.concat(...friendPosts));
     } catch (err) {
         res.status(500).json(err);
     }
