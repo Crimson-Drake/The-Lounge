@@ -51,6 +51,10 @@ const userSchema = new mongoose.Schema({
     from: {
         type: String,
         max: 50
+    },
+    occupation: {
+        type: String,
+        required: true
     }
 },
 {
