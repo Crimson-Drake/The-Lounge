@@ -2,9 +2,9 @@
 
 ### A real-time chat application built using:
 
-- React.js (Front-end interface)
-- Node.js (Back-end server)
-- MongoDB (Database)
+- React.js
+- Node.js
+- MongoDB
 
 ### Currently developing features:
 
