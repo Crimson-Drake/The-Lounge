@@ -2,7 +2,7 @@ import './feed.css';
 
 export default function Feed() {
     return (
-        <div className="">
+        <div className="feed">
             Feed
         </div>
     );
