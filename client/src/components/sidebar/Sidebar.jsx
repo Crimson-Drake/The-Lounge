@@ -31,11 +31,21 @@ export default function Sidebar() {
                     </li>
                     <li className="sidebarListItem">
                         <HelpOutline className="sidebarIcon" />
-                        <span className="sidebarListItemText">Questions</span>
+                        <span className="sidebarListItemText">FAQ</span>
                     </li>
                     <li className="sidebarListItem">
                         <Event className="sidebarIcon" />
                         <span className="sidebarListItemText">Events</span>
+                    </li>
+                </ul>
+                <button className="sidebarButton">
+                    Show More
+                </button>
+                <hr className="sidebarHr" />
+                <ul className="sidebarFriendList">
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="" alt="" />
+                        <span className="sidebarFriendName">King Dragonis</span>
                     </li>
                 </ul>
             </div>

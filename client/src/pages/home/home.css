@@ -1,4 +1,6 @@
 .homeContainer {
     display: flex;
     width: 100%;
+    background-color: rgb(10, 10, 10);
+    color: white;
 }

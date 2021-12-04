@@ -1,6 +1,7 @@
 .sidebar {
     flex: 3;
     height: calc(100vh -50px);
+    border-right: 1px solid rgb(53, 208, 255);
 }
 
 .sidebarWrapper {
@@ -16,5 +17,9 @@
 .sidebarListItem {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.sidebarIcon {
+    margin-right: 15px;
 }
