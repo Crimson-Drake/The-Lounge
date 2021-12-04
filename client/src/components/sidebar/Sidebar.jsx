@@ -52,6 +52,22 @@ export default function Sidebar() {
                         <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
                         <span className="sidebarFriendName">King Dragonis</span>
                     </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
+                        <span className="sidebarFriendName">Vineeth Dragonis</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
+                        <span className="sidebarFriendName">Absolute Dominator</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
+                        <span className="sidebarFriendName">Emperor Vineeth Dragonis</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
+                        <span className="sidebarFriendName">Ruler of the multiverse</span>
+                    </li>
                 </ul>
             </div>
         </div>
