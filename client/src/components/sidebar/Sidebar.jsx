@@ -49,7 +49,7 @@ export default function Sidebar() {
                 <hr className="sidebarHr" />
                 <ul className="sidebarFriendList">
                     <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="" alt="" />
+                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
                         <span className="sidebarFriendName">King Dragonis</span>
                     </li>
                 </ul>
