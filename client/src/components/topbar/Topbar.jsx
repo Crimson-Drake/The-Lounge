@@ -28,11 +28,11 @@ export default function Topbar() {
                     </div>
                     <div className="topbarIconItems">
                         <Person />
-                        <span className="topbarIconBadge">2</span>
+                        <span className="topbarIconBadge">1</span>
                     </div>
                     <div className="topbarIconItems">
                         <Person />
-                        <span className="topbarIconBadge">3</span>
+                        <span className="topbarIconBadge">1</span>
                     </div>
                 </div>
             </div>
