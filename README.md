@@ -1,6 +1,6 @@
 # The-Lounge
 
-### A real-time chat application built using:
+### A social medaia platform built using:
 
 - React.js
 - Node.js
@@ -8,18 +8,19 @@
 
 ### Features currently under development:
 
-- Signin / signup
-- Create, delete, update posts
-- Feed
-- Checkout following users' posts
-- Like posts
-- Checkout other users
-- Follow other users
-- Maintain a profile page
+- [ ] UI
+- [ ] Signin / signup
+- [ ] Create, delete, update posts
+- [ ] Feed
+- [ ] Checkout following users' posts
+- [ ] Like posts
+- [ ] Checkout other users
+- [ ] Follow other users
+- [ ] Maintain a profile page
 
 ### Future plans:
 
-- Real-time chat between 2 users
+- [ ] Real-time chat between 2 users
 
 ### Status:
 - [ ] Completed
