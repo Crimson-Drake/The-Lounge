@@ -63,10 +63,6 @@ export default function Sidebar() {
                         <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
                         <span className="sidebarFriendName">Ruler of the multiverse</span>
                     </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
-                        <span className="sidebarFriendName">Dragon Emperor</span>
-                    </li>
                 </ul>
             </div>
         </div>
