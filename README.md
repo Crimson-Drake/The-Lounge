@@ -6,7 +6,7 @@
 - Node.js
 - MongoDB
 
-### Currently developing features:
+### Features currently under development:
 
 - Signin / signup
 - Create, delete, update posts
