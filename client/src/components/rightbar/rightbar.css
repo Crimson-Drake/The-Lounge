@@ -1,5 +1,10 @@
 .rightbar {
     flex: 3.5;
+    padding-left: 20px;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
 }
 
 .rightbarWrapper {
