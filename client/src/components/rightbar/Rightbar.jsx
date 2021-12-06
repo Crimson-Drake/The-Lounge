@@ -1,5 +1,5 @@
 import './rightbar.css';
-import { Users } from "../../dummyData";
+// import { Users } from "../../dummyData";
 
 export default function Rightbar() {
     return (
@@ -8,7 +8,9 @@ export default function Rightbar() {
                 {/* {profile ? <ProfileRightbar /> : <HomeRightbar />} */}
                 <div className="birthdayContainer">
                     <img className="birthdayImg" src="/assets/gift.png" alt="" />
-                    <span className="birthdayText">King Dragonis and 5 others have a birthday today</span>
+                    <span className="birthdayText">
+                        <b>King Dragonis</b> and <b>5 others</b> have a birthday today
+                    </span>
                 </div>
             </div>
         </div>
