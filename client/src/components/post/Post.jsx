@@ -7,7 +7,7 @@ export default function Post({ post }) {
   const [like, setLike] = useState(post.like)
   const [isLiked, setIsLiked] = useState(false)
 
-  const likeHandler =()=>{
+  const likeHandler = () => {
     setLike(isLiked ? like-1 : like+1)
     setIsLiked(!isLiked)
   }
@@ -17,9 +17,9 @@ export default function Post({ post }) {
             <div className="postTop">
                 <div className="postTopLeft">
                     <img
-                    className="postProfileImg"
-                    src={Users.filter((u) => u.id === post?.userId)[0].profilePicture}
-                    alt=""
+                        className="postProfileImg"
+                        src={Users.filter((u) => u.id === post?.userId)[0].profilePicture}
+                        alt=""
                     />
                     <span className="postUsername">
                     {Users.filter((u) => u.id === post?.userId)[0].username}
