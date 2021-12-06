@@ -5,7 +5,6 @@ export default function Rightbar() {
     return (
         <div className="rightbar">
             <div className="rightbarWrapper">
-                {/* {profile ? <ProfileRightbar /> : <HomeRightbar />} */}
                 <div className="birthdayContainer">
                     <img className="birthdayImg" src="/assets/gift.png" alt="" />
                     <span className="birthdayText">
