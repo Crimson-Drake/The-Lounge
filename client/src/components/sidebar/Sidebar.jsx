@@ -7,6 +7,8 @@ import {
     HelpOutline,
     Event,
 } from '@material-ui/icons';
+import { Users } from '../../dummyData';
+import CloseFriend from '../closeFriend/CloseFriend';
 
 export default function Sidebar() {
     return (
@@ -43,26 +45,9 @@ export default function Sidebar() {
                 </button>
                 <hr className="sidebarHr" />
                 <ul className="sidebarFriendList">
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
-                        <span className="sidebarFriendName">King Dragonis</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
-                        <span className="sidebarFriendName">Vineeth Dragonis</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
-                        <span className="sidebarFriendName">Absolute Dominator</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
-                        <span className="sidebarFriendName">Emperor Vineeth Dragonis</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/dp.jpg" alt="" />
-                        <span className="sidebarFriendName">Ruler of the multiverse</span>
-                    </li>
+                    { Users.map((u) => (
+                        <CloseFriend key={ u.id } user={ u }/>
+                    )) }
                 </ul>
             </div>
         </div>
