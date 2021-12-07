@@ -4,14 +4,15 @@
 
 - React.js
 - Node.js
+- Express.js
 - MongoDB
 
 ### Features currently under development:
 
-- [ ] UI
-- [ ] Signin / signup
-- [ ] Create, delete, update posts
-- [ ] Feed
+- [x] UI
+- [x] Signin / signup
+- [x] Create, delete, update posts
+- [x] Feed
 - [ ] Checkout following users' posts
 - [ ] Like posts
 - [ ] Checkout other users
