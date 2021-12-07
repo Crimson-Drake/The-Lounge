@@ -14,6 +14,8 @@ export default function Post({ post }) {
 
     const user = Users.filter(u => u.id === 1);
 
+    console.log(user[0].username);
+
     return (
         <div className="post">
             <div className="postWrapper">
@@ -21,11 +23,11 @@ export default function Post({ post }) {
                     <div className="postTopLeft">
                         <img
                             className="postProfileImg"
-                            src={ Users.filter((u) => u.id === post?.userId)[0].profilePicture }
+                            src={ Users.filter((u) => u.id === post.userId)[0].profilePicture }
                             alt=""
                         />
                         <span className="postUsername">
-                        { Users.filter((u) => u.id === post?.userId)[0].username }
+                        { Users.filter((u) => u.id === post.userId)[0].username }
                         </span>
                         <span className="postDate">{ post.date }</span>
                     </div>
