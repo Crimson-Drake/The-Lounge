@@ -12,6 +12,8 @@ export default function Post({ post }) {
         setIsLiked(!isLiked)
     }
 
+    const user = Users.filter(u => u.id === 1);
+
     return (
         <div className="post">
             <div className="postWrapper">
