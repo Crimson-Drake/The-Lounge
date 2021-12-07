@@ -10,10 +10,10 @@
     width: 5px;
 }
 ::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
+    background-color: #f5f5f5;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(230, 230, 230);
 }
 
 .sidebarWrapper {
