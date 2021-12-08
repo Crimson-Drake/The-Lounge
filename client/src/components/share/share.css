@@ -8,8 +8,6 @@
 
 .shareWrapper {
     padding: 20px;
-    background-color: #151515;
-    color: rgb(204, 204, 204);
 }
 
 .shareTop {
@@ -28,8 +26,6 @@
 .shareInput {
     border: none;
     width: 80%;
-    background-color: #151515;
-    color: rgb(204, 204, 204);
 }
 
 .shareInput:focus {
