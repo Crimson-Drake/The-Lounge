@@ -13,10 +13,10 @@
 - [x] Signin / signup
 - [x] Create, delete, update posts
 - [x] Feed
+- [x] Checkout other users
+- [ ] Follow other users
 - [ ] Checkout following users' posts
 - [ ] Like posts
-- [ ] Checkout other users
-- [ ] Follow other users
 - [ ] Maintain a profile page
 
 ### Future plans:
