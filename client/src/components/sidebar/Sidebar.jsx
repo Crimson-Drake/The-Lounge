@@ -2,6 +2,7 @@ import './sidebar.css';
 import {
     RssFeed,
     Chat,
+    PlayCircleFilledOutlined,
     Group,
     Bookmark,
     HelpOutline,
@@ -26,6 +27,10 @@ export default function Sidebar() {
                     <li className="sidebarListItem">
                         <Group className="sidebarIcon" />
                         <span className="sidebarListItemText">Groups</span>
+                    </li>
+                    <li className="sidebarListItem">
+                        <PlayCircleFilledOutlined className="sidebarIcon" />
+                        <span className="sidebarListItemText">Videos</span>
                     </li>
                     <li className="sidebarListItem">
                         <Bookmark className="sidebarIcon" />
