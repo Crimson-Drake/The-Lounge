@@ -30,7 +30,7 @@ export default function Rightbar({ profile }) {
     const ProfileRightbar  = () => {
         return (
             <>
-                <h4 className="rightbarTitle">User information</h4>
+                <h4 className="rightbarTitle">User info</h4>
                 <div className="rightbarInfo">
                     <div className="rightbarInfoItem">
                         <span className="rightbarInfoKey">City:</span>
