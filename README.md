@@ -13,15 +13,16 @@
 - [x] Signin / signup
 - [x] Create, delete, update posts
 - [x] Feed
+- [x] Maintain a profile page
 - [x] Checkout other users
 - [ ] Follow other users
 - [ ] Checkout following users' posts
 - [ ] Like posts
-- [ ] Maintain a profile page
 
 ### Future plans:
 
 - [ ] Real-time chat between 2 users
+- [ ] Remaster UI
 
 ### Status:
 - [ ] Completed
