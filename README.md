@@ -18,6 +18,7 @@
 - [ ] Follow other users
 - [ ] Checkout following users' posts
 - [ ] Like posts
+- [ ] Comment on posts
 
 ### Future plans:
 
